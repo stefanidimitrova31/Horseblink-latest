@@ -1,0 +1,34 @@
+Select a horse video file
+ Selected video path: C:\Users\Stefani\Desktop\Horseblinks (1)\Horseblinks\videos\GX010039-YONA.mp4
+ Loading ground truth from: C:\Users\Stefani\Desktop\Horseblinks (1)\Horseblinks\groundtruth\GX010039-YONA.csv
+Trying to open video at: C:\Users\Stefani\Desktop\Horseblinks (1)\Horseblinks\videos\GX010039-YONA.mp4
+Initialized KCF from cached ROI (150, 405, 141, 159) for 'GX010039-YONA'
+Saved ROI cache: GX010039-YONA.json
+Cached ROI immediately on init for 'GX010039-YONA': (150, 405, 141, 159)
+not able to open frame 10
+not able to open frame 11
+end of video
+Tracking completed
+Percentage of frames where eye was tracked 100.0
+[DBG] T=1.781, T/2=0.890, residual range=-6.064..12.805
+
+=== GX010039-YONA ===
+Percentage of frames where eye was tracked 100.00%
+
+===== Peaks only =====
+TP: 3, FP: 3, FN: 0
+Full blinks: 0, Half blinks: 3
+Mean Full Brightness (peak strongest): 
+Mean Half Brightness (peak strongest): 10.067
+
+===== Troughs only =====
+TP: 3, FP: 0, FN: 0
+Full blinks: 0, Half blinks: 3
+Mean Full Brightness (trough strongest): 
+Mean Half Brightness (trough strongest): -3.586
+
+===== Combined (within-window) =====
+TP: 3, FP: 0, FN: 0
+Full blinks: 0, Half blinks: 3
+Mean Full Brightness (trough strongest): 
+Mean Half Brightness (trough strongest): -3.819

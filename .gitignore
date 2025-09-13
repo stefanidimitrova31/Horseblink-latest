@@ -1,0 +1,42 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+.env/
+
+# IDE/project files
+.vscode/
+.idea/
+
+# Videos (raw data)
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Large outputs / intermediate data
+*.csv
+*.xlsx
+*.json
+*.npy
+*.npz
+
+# Figures / plots (re-generated easily)
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# Logs / temp files
+*.log
+*.tmp
+
+# DLC / tracking cache
+labeled-data/
+training-datasets/
+dlc-models/
+evaluation-results/
